@@ -11,16 +11,16 @@ This repository contains the following files:
 
 
 ## On how to run this process
-1. First write *run create_tables.py* in a pthon console. This creates a database and the necessary tables for the successful execution of the process.
-2. Write *run etl.py* in a python console. In this step the process that feeds the tables will begin. More details about the process are below.
+    1. First write *run create_tables.py* in a pthon console. This creates a database and the necessary tables for the successful execution of the process.
+    2. Write *run etl.py* in a python console. In this step the process that feeds the tables will begin. More details about the process are below.
 
 
 
 5 tables were created to facilitate the extraction of information about user activity on Sparkify through queries. This information is structured with the idea of analyzing the listened songs by the users.
 
-Two data sources were considered:
-    1.A Song Dataset
-    2.Log files records with page NextSong(from app users) based on the songs in the dataset above
+## Two data sources were considered:
+    - A Song Dataset
+    - Log files records with page NextSong(from app users) based on the songs in the dataset above
 
 The principal output of this pipeline is the songplays table which incorporate information about the users and the song they've played, including the information of the artist of these songs. In this way we can querying all the information of interest from a single table.
 
