@@ -1,3 +1,3 @@
 # Data Modeling projects
 
-This is the Data Modeling project from Data Engineer Nanodegree 
+Data Modeling project of Data Engineer Nanodegree from Udacity
